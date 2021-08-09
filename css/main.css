@@ -1,0 +1,261 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@font-face{
+	font-family: tieude;
+	src: url("../font/MRCH NewYork.ttf");
+}
+body{
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	background-color: #38629A;
+	color: #F8BF28;
+	overflow: hidden;
+}
+.container{
+	width: 8000px;
+	height: 100vh;
+}
+header{
+	width: 100vw;
+	height: 60px;
+	position: fixed;
+	padding-left: 40px;
+	padding-right: 40px;
+	z-index: 100
+}
+.logo{
+	float: left;
+	width: 50%;
+	padding-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 20px
+}
+.menu{
+	width: 48%;
+	height: 60px;
+	padding-top: 30px;
+	box-sizing: border-box;
+	float: right;
+}
+.menu a{
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #F8BF28;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 500
+}
+section{
+	width: 100vw;
+	height: 100vh;
+	float: left;
+	font-size: 40pt;
+/*	padding: 100px 100px 0;*/
+	box-sizing: border-box;
+/*	background-color: aliceblue*/
+}
+.hello{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24pt;
+	font-weight: 600;
+	padding-top: 200px;
+	padding-left: 100px;
+}
+.im{
+	font-family: tieude;
+	font-size: 120px;
+	padding-left: 100px;
+	animation: bounce 10s 1s linear infinite;
+}
+.career{
+	font-family: tieude;
+	font-size: 31pt;
+	padding-left: 100px;
+}
+.large01{
+	font-family: tieude;
+	font-size: 480px;
+	position: absolute;
+	margin-left: 930px;
+	opacity: 0.25;
+}
+.page1{
+	padding-left: 40px;
+	margin-top: 150px;
+	font-family: tieude;
+	font-size: 42px;
+}
+/*nội dung 2*/
+.large02{
+	font-family: tieude;
+	font-size: 480px;
+	margin-left: 790px;
+	opacity: 0.25;
+	z-index: 1000
+}
+.page2{
+	padding-left: 40px;
+	margin-top: 10px;
+	font-family: tieude;
+	font-size: 42px;
+	position: absolute
+}
+/*
+.hinh1{
+	margin-left: 500px;
+	top: 250px;
+	position: absolute;
+	opacity: 0.7
+}
+*/
+.gioithieu1{
+	font-family: tieude;
+	font-size: 150px;
+	position: absolute;
+	margin-top: -450px;
+	margin-left: 200px;
+}
+.gioithieu2{
+	font-family: tieude;
+	font-size: 150px;
+	position: absolute;
+	margin-top: -300px;
+	margin-left: 700px;
+}
+.text{
+	width: 300px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	margin-left: 150px;
+	margin-top: -250px
+}
+.text2{
+	width: 300px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	margin-left: 400px;
+	margin-top: 70px
+}
+/*nội dung 3*/
+.large03{
+	font-family: tieude;
+	font-size: 480px;
+	margin-left: 760px;
+	opacity: 0.25;
+	z-index: 1;
+}
+.img1{
+	margin-top: -500px;
+	margin-left: 400px;
+	z-index: 2;
+	position: absolute;
+}
+
+.img2{
+	margin-top: -350px;
+	margin-left: 130px;
+}
+.img3{
+	margin-top: 27px;
+	margin-left: 1100px;
+}
+.text3{
+	font-family: tieude;
+	font-size: 70px;
+	margin-left: 770px;
+	margin-top: -450px;
+	position: absolute;
+	z-index: 3
+}
+.text4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	width: 300px;
+	margin-left: 870px;
+	margin-top: -350px;
+	position: absolute;
+	z-index: 5;
+}
+.text5{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	margin-left: 870px;
+	margin-top: -300px
+}
+.text6{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	transform: rotate(-90deg);
+	margin-left: 280px;
+	margin-top: 190px;
+	position: absolute;
+}
+/*thietke*/
+.img4{
+	margin-left: 100px;
+	margin-top: -490px;
+}
+.img5{
+	margin-left: 1110px;
+	margin-top: -20px
+}
+.img6{
+	margin-left: 870px;
+	margin-top: -162px;
+}
+.text7{
+	width: 250px;
+	margin-top: -125px;
+	margin-left: 250px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+.text8{
+	font-family: tieude;
+	font-size: 105px;
+	margin-left: 750px;
+	margin-top: -500px
+}
+.text9{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	width: 400px;
+	margin-left: 900px;
+	margin-top: 20px
+}
+/*liên hệ*/
+.text10{
+	font-family: tieude;
+	font-size: 110px;
+	margin-left: 100px;
+	margin-top: -400px;
+}
+.text11{
+	font-family: tieude;
+	font-size: 20px;
+	margin-left: 100px;
+}
+.text12{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	margin-left: 100px;
+	margin-top: 5px
+}
+.text13{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	margin-left: 100px;
+	margin-top: 5px
+}
+.text14{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	margin-left: 100px;
+	margin-top: 5px
+}
